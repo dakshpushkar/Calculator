@@ -1,0 +1,32 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(5, 2, 34);
+}
+.buttons{
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr 3fr;
+   height: 350px;
+ 
+  
+}
+.container{
+ 
+    border: 2px solid #fff;
+    width: 300px;
+    height: 400px;
+    /* margin-left: 200px; */
+     
+}
+#block0:hover{
+    color:crimson;
+    font-size: 10px;
+
+}
+input{
+    color: #fff;
+    width: 300px;
+    border: 2px solid rgba(0, 0, 0, 0);
+    height: 50px;
+}
